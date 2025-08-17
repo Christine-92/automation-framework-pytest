@@ -46,4 +46,9 @@ def channel(auth_client):
     # Yield the whole response so tests can use id/name/etc.
     yield resp_json
 
-
+# @pytest.fixture(scope="module")
+# def conversation(contact):
+#     """Create one conversation per test module with a unique name/URL."""
+# @pytest.fixture(scope="module")
+#
+# def contact()
