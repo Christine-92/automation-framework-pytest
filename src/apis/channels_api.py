@@ -1,5 +1,5 @@
 from src.apis.base_client import BaseClient
-from config.settings import *
+from src.config.settings import ACCOUNT_ID
 class ChannelClient:
     def __init__(self, base_client: BaseClient, account_id:str =  ACCOUNT_ID):
         self.client = base_client

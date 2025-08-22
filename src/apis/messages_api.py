@@ -1,5 +1,5 @@
 from src.apis.base_client import BaseClient
-from config.settings import ACCOUNT_ID
+from src.config.settings import ACCOUNT_ID
 from src.enums import MessageType, ContentType
 
 
@@ -24,7 +24,7 @@ class MessagesClient:
         return response.json()
 
     def get_messages(self, conversation_id):
-        url = f"api/v1/accounts/{self.account_id}/conversations/{conversation_id}/messages"
+        url = f"/api/v1/accounts/{self.account_id}/conversations/{conversation_id}/messages"
         response = self.client.get(url)
         response.raise_for_status()
         return response.json()
