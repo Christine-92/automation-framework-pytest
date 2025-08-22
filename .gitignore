@@ -3,3 +3,4 @@ __pycatch__/
 .pytest_cache/
 .idea/
 .env
+.locust/
