@@ -1,5 +1,5 @@
 
-from config.settings import ACCOUNT_ID
+from src.config.settings import ACCOUNT_ID
 from .base_client import BaseClient
 
 class ContactClient:

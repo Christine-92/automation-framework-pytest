@@ -1,5 +1,5 @@
-from apis.base_client import BaseClient
-from config.settings import *
+from src.apis.base_client import BaseClient
+from src.config.settings import *
 
 
 class AuthClient(object):

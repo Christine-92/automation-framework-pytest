@@ -1,6 +1,6 @@
 
 from .base_client import BaseClient
-from config.settings import ACCOUNT_ID
+from src.config.settings import ACCOUNT_ID
 
 class ConversationClient:
     def __init__(self,base_client: BaseClient, account_id = ACCOUNT_ID):
