@@ -1,4 +1,3 @@
-# src/performance/tasks/simple_conversation_flow.py
 from locust import HttpUser, task, between
 from datetime import datetime
 import uuid
