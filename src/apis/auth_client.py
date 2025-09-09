@@ -2,7 +2,7 @@ from src.apis.base_client import BaseClient
 from src.config.settings import *
 
 
-class AuthClient(object):
+class AuthClient():
     def __init__(self,  base_url=BASE_URL):
         self.base_url = base_url.rstrip('/')
         self.token_info = {} # store all auth headers

@@ -2,7 +2,7 @@ from datetime import datetime
 from enums import MessageType
 from src.apis.messages_api import MessagesClient
 from src.config.settings import ACCOUNT_ID
-from tests.conftest import auth_client
+from tests.api_tests.conftest import auth_client
 
 
 def test_in_out_messages(auth_client,contact, conversation):
